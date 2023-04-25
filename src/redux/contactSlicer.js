@@ -31,7 +31,7 @@ const persistConfig = {
   storage,
 };
 
-export const contactSlicerPersistedReducer = persistReducer(
-  persistConfig,
-  contactSlicer.reducer
-);
+// export const contactSlicerPersistedReducer = persistReducer(
+//   persistConfig,
+//   contactSlicer.reducer
+// );
