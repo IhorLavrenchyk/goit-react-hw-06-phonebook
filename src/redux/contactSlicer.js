@@ -25,7 +25,7 @@ export const contactSlicer = createSlice({
 
 export const { addContact, removeContact } = contactSlicer.actions;
 
-Persist;
+// Persist
 const persistConfig = {
   key: 'root',
   storage,
