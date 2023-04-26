@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { filterSlicer } from './filterSlicer';
-// import { contactPersistedReducer } from './contactSlicer';
+import { contactSlicerPersistedReducer } from './contactSlicer';
 import {
   persistStore,
   FLUSH,
@@ -13,7 +13,7 @@ import {
 
 export const store = configureStore({
   reducer: {
-    // contacts: contactPersistedReducer,
+    contacts: contactSlicerPersistedReducer,
     filter: filterSlicer.reducer,
   },
   middleware: getDefaultMiddleware =>
