@@ -45,7 +45,7 @@ export const Form = () => {
         type="tel"
         placeholder="Mobile number"
         className={css.field}
-        {...register('text', {
+        {...register('number', {
           required: 'Phone number is required',
           minLength: 6,
           maxLength: 12,
